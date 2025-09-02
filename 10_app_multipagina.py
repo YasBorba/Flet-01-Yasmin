@@ -1,3 +1,4 @@
+
 import flet as ft
 
 def main(page: ft.Page):
@@ -83,7 +84,7 @@ def main(page: ft.Page):
                 padding=ft.padding.symmetric(vertical=8, horizontal=16),
                 border_radius=12,
                 bgcolor=ft.Colors.TRANSPARENT,
-                animate=ft.animation.Animation(200, ft.AnimationCurve.EASE_OUT)
+                animate=ft.Animation(200, ft.AnimationCurve.EASE_OUT)
             ),
             on_tap=on_click_func
         )
