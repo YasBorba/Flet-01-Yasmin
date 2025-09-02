@@ -39,7 +39,7 @@ def main(page: ft.Page):
     # Container 
     container = ft.Container(
         content= ft.Column(
-            controls=[meu_texto, subtitulo, mensagem],
+            controls=[meu_texto, subtitulo, mensagem], # Colocando os conteudos dentro do container 
             alignment=ft.MainAxisAlignment.CENTER,
             horizontal_alignment=ft.CrossAxisAlignment.CENTER
         ),
